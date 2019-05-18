@@ -1,0 +1,162 @@
+// Experiment 3 : Number 1 MEDINA
+#include <iostream>
+#include <cstdlib>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    int num[10];
+    double total, average;
+
+
+AGAIN:
+
+    cout<<"Enter 10 integers" <<endl;
+
+    for (int counter = 0; counter < 10; counter ++)
+        {
+
+            cout << counter+1 << ") "; cin >> num[counter];
+        }
+
+    cout << endl;
+
+// n1 = num[0] | n2 = num[1] | n3 = num[2] | n4 = num[3] | n5 = num[4] | n6 = num[5] | n7 = num[6] | n8 = num[7] | n9 = num[8] | n10 = num[9]
+
+     if     ( num[0]>=num[1] && num[0]>=num[2] && num[0]>=num[3] && num[0]>=num[4] && num[0]>=num[5] && num[0]>=num[6] && num[0]>=num[7] && num[0]>=num[8] && num[0]>=num[9]  )
+        {
+            cout<<"The largest number is = " <<num[0] <<endl;
+        }
+
+    else if ( num[1]>=num[0] && num[1]>=num[2] && num[1]>=num[3] && num[1]>=num[4] && num[1]>=num[5] && num[1]>=num[6] && num[1]>=num[7] && num[1]>=num[8] && num[0]>=num[9]  )
+        {
+            cout<<"The largest number is = " << num[1] <<endl;
+        }
+
+    else if ( num[2]>=num[0] && num[2]>=num[1] && num[2]>=num[3] && num[2]>=num[4] && num[2]>=num[5] && num[2]>=num[6] && num[2]>=num[7] && num[2]>=num[8] && num[2]>=num[9]  )
+        {
+            cout<<"The largest number is = " <<num[2] <<endl;
+        }
+
+    else if ( num[3]>=num[1] && num[3]>=num[2] && num[3]>=num[0] && num[3]>=num[4] && num[3]>=num[5] && num[3]>=num[6] && num[3]>=num[7] && num[3]>=num[8] && num[3]>=num[9]  )
+        {
+            cout<<"The largest number is = " <<num[3] <<endl;
+        }
+
+    else if ( num[4]>=num[1] && num[4]>=num[2] && num[4]>=num[3] && num[4]>=num[0] && num[4]>=num[5] && num[4]>=num[6] && num[4]>=num[7] && num[4]>=num[8] && num[4]>=num[9]  )
+        {
+            cout<<"The largest number is = " <<num[4] <<endl;
+        }
+
+    else if ( num[5]>=num[1] && num[5]>=num[2] && num[5]>=num[3] && num[5]>=num[4] && num[5]>=num[0] && num[5]>=num[6] && num[5]>=num[7] && num[5]>=num[8] && num[5]>=num[9]  )
+        {
+            cout<<"The largest number is = " <<num[5] <<endl;
+        }
+
+    else if ( num[6]>=num[1] && num[6]>=num[2] && num[6]>=num[3] && num[6]>=num[4] && num[6]>=num[5] && num[6]>=num[0] && num[6]>=num[7] && num[6]>=num[8] && num[6]>=num[9]  )
+        {
+            cout<<"The largest number is = " <<num[6] <<endl;
+        }
+
+    else if ( num[7]>=num[1] && num[7]>=num[2] && num[7]>=num[3] && num[7]>=num[4] && num[7]>=num[5] && num[7]>=num[6] && num[7]>=num[0] && num[7]>=num[8] && num[7]>=num[9]  )
+        {
+            cout<<"The largest number is = " <<num[7] <<endl;
+        }
+
+    else if ( num[8]>=num[1] && num[8]>=num[2] && num[8]>=num[3] && num[8]>=num[4] && num[8]>=num[5] && num[8]>=num[6] && num[8]>=num[7] && num[8]>=num[0] && num[8]>=num[9]  )
+        {
+            cout<<"The largest number is = " <<num[8] <<endl;
+        }
+
+    else //( num[9]>=num[1] && num[9]>=num[2] && num[9]>=num[3] && num[9]>=num[4] && num[9]>=num[5] && num[9]>=num[6] && num[9]>=num[7] && num[9]>=num[8] && num[9]>=num[0] )
+        {
+            cout<<"The largest number is = " <<num[9] <<endl;
+        }
+
+
+    if ( num[0]<=num[1] && num[0]<=num[2] && num[0]<=num[3] && num[0]<=num[4] && num[0]<=num[5] && num[0]<=num[6] && num[0]<=num[7] && num[0]<=num[8] && num[0]<=num[9] )
+        {
+            cout<<"The smallest number is = " <<num[0] <<endl;
+        }
+
+    else if ( num[1]<=num[0] && num[1]<=num[2] && num[1]<=num[3] && num[1]<=num[4] && num[1]<=num[5] && num[1]<=num[6] && num[1]<=num[7] && num[1]<=num[8] && num[0]<=num[9] )
+        {
+            cout<<"The smallest number is = " <<num[1] <<endl;
+        }
+
+    else if ( num[2]<=num[0] && num[2]<=num[1] && num[2]<=num[3] && num[2]<=num[4] && num[2]<=num[5] && num[2]<=num[6] && num[2]<=num[7] && num[2]<=num[8] && num[2]<=num[9] )
+        {
+            cout<<"The smallest number is = " <<num[2] <<endl;
+        }
+
+    else if ( num[3]<=num[0] && num[3]<=num[1] && num[3]<=num[2] && num[3]<=num[4] && num[3]<=num[5] && num[3]<=num[6] && num[3]<=num[7] && num[3]<=num[8] && num[3]<=num[9] )
+        {
+            cout<<"The smallest number is = " <<num[3] <<endl;
+        }
+
+    else if ( num[4]<=num[0] && num[4]<=num[1] && num[4]<=num[2] && num[4]<=num[3] && num[4]<=num[5] && num[4]<=num[6] && num[4]<=num[7] && num[4]<=num[8] && num[4]<=num[9] )
+        {
+            cout<<"The smallest number is = " <<num[4] <<endl;
+        }
+
+    else if ( num[5]<=num[0] && num[5]<=num[1] && num[5]<=num[2] && num[5]<=num[3] && num[5]<=num[4] && num[5]<=num[6] && num[5]<=num[7] && num[5]<=num[8] && num[5]<=num[9] )
+        {
+            cout<<"The smallest number is = " <<num[5] <<endl;
+        }
+
+    else if ( num[6]<=num[0] && num[6]<=num[1] && num[6]<=num[2] && num[6]<=num[3] && num[6]<=num[4] && num[6]<=num[5] && num[6]<=num[7] && num[6]<=num[8] && num[6]<=num[9] )
+        {
+            cout<<"The smallest number is = " <<num[6] <<endl;
+        }
+
+    else if ( num[7]<=num[0] && num[7]<=num[1] && num[7]<=num[2] && num[7]<=num[3] && num[7]<=num[4] && num[7]<=num[5] && num[7]<=num[6] && num[7]<=num[8] && num[7]<=num[9] )
+        {
+            cout<<"The smallest number is = " <<num[7] <<endl;
+        }
+
+    else if ( num[8]<=num[0] && num[8]<=num[1] && num[8]<=num[2] && num[8]<=num[3] && num[8]<=num[4] && num[8]<=num[5] && num[8]<=num[6] && num[8]<=num[7] && num[8]<=num[9] )
+        {
+            cout<<"The smallest number is = " <<num[8] <<endl;
+        }
+
+    else //( num[9]<=num[0] && num[9]<=num[1] && num[9]<=num[2] && num[9]<=num[3] && num[9]<=num[4] && num[9]<=num[5] && num[9]<=num[6] && num[9]<=num[7] && num[9]<=num[8] )
+        {
+            cout<<"The smallest number is = " <<num[9] <<endl;
+        }
+
+    for (int counter2 = 0; counter2 < 10; counter2++)
+        {
+            total = total + num[counter2];
+        }
+
+    /* total = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10;
+    cout<<"The sum of the 10 integers = " << total << endl;*/
+
+    cout << "The total of the 10 intergers = " << total <<endl;
+    average = total/10;
+    cout << "The average of the 10 integers = " << average << endl;
+
+
+char tryagain;
+    cout << endl;
+    cout << "Try Again?";
+    cout << "\n(y to continue, any key to exit)";
+    cout << "\nYour Choice: ";
+    cin  >> tryagain;
+
+    if (tryagain == 'y' || tryagain == 'Y')
+        {
+            cout << endl;
+            goto AGAIN;
+            cout << endl;
+        }
+    else
+        {
+            exit(0);
+        }
+
+    cout << endl;
+    _getch();
+    return 0;
+}
